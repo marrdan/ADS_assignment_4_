@@ -1,2 +1,2 @@
-﻿# algorthm and data structure 
+﻿# algorithm and data structure 
 # assignment 4
