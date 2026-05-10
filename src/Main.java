@@ -146,7 +146,6 @@ class Main{
                 {100, 40, INF,   0,  60},
                 {INF, INF, INF,  60,   0}
         };
-
         int n = nodes.length;
         int[] dist = new int[n];
         boolean[] visited = new boolean[n];
@@ -179,7 +178,6 @@ class Main{
                 }
             }
         }
-
 
         System.out.println("Distance to Dundee = " + dist[4]);
 
