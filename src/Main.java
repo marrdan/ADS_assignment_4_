@@ -55,7 +55,7 @@ class Main{
 
     //task 3
 
-    static class Graph {
+
         private final Map<String, List<String>> adj = new HashMap<>();
 
         public void addEdge(String v, String w) {
@@ -69,7 +69,7 @@ class Main{
         public Set<String> vertices() {
             return adj.keySet();
         }
-    }
+
 
     //dfs
     public static void dfs(Graph g, String start) {
