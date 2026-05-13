@@ -121,7 +121,7 @@ class Main{
     // task 4
     We want to find the shortest path from Edinburgh to Dundee using Dijkstra’s algorithm.
     We start from Edinburgh with distance 0, while all other nodes (Glasgow, Stirling, Perth, Dundee)
-    have distance ∞. From Edinburgh we update the distances to
+    have distance infinity. From Edinburgh we update the distances to
     its neighbors: Stirling = 50, Glasgow = 70, Perth = 100.
     The smallest distance is Stirling (50), so we move to Stirling.
     From Stirling we update: Glasgow = 50 + 50 = 100 (but already 70, so we keep 70),
